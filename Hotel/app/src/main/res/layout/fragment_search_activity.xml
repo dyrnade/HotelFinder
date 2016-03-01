@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.cem.hotel.SearchActivityFragment">
+
+        <TextView
+            android:paddingTop="120dp"
+            android:id="@+id/searchFragmentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/searchFragmentTextViewText" />
+
+        <EditText
+            android:id="@+id/searchFragmentCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/searchFragmentCityHint"
+            android:layout_below="@id/searchFragmentTextView"
+            />
+
+        <Button
+            android:id="@+id/searchFragmentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/searchFragmentButtonText"
+            android:layout_below="@id/searchFragmentCity" />
+
+</RelativeLayout>
